@@ -1,5 +1,5 @@
-import { GameType } from "../pages/firstScreen";
 import { GameStyle } from "./gameStyle";
+import { GameType } from "../pages";
 
 export const getRandomLettersInRange = (count: number): string[] => {
   let letters = [
