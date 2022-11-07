@@ -1,6 +1,6 @@
-import { css, SerializedStyles } from "@emotion/react";
+import { css } from "@emotion/react";
 import React, { FC } from "react";
-import { DCards, ElementID } from "../../pages/game";
+import { DCards } from "../../pages/game";
 
 interface DropProps {
   item: DCards;
